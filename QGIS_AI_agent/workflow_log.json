@@ -1,0 +1,231 @@
+[
+  {
+    "timestamp": "2026-05-08T00:56:07.154412",
+    "user_input": "幫我開啟圖層 VILLAGE_NLSC_121_1150306 的屬性表格。",
+    "agent": "layer_control",
+    "operation": "open_attribute_table",
+    "params": {
+      "layer_name": "VILLAGE_NLSC_121_1150306"
+    }
+  },
+  {
+    "timestamp": "2026-05-08T00:56:51.758114",
+    "user_input": "把 123 隱藏起來，然後把它改名叫做 '測試圖層'。」",
+    "agent": "layer_control"
+  },
+  {
+    "timestamp": "2026-05-08T00:57:35.265065",
+    "user_input": "把VILLAGE_NLSC_121_1150306 隱藏起來，然後把它改名叫做 '測試圖層'。」",
+    "agent": "layer_control"
+  },
+  {
+    "timestamp": "2026-05-08T00:59:24.814274",
+    "user_input": "把 VILLAGE_NLSC_121_1150306 隱藏起來。」",
+    "agent": "layer_control",
+    "operation": "toggle_layer_visibility",
+    "params": {
+      "layer_name": "VILLAGE_NLSC_121_1150306",
+      "visible": false
+    }
+  },
+  {
+    "timestamp": "2026-05-08T00:59:36.721466",
+    "user_input": "「把 VILLAGE_NLSC_121_1150306 改名叫測試圖層。」",
+    "agent": "layer_control",
+    "operation": "rename_layer",
+    "params": {
+      "layer_name": "VILLAGE_NLSC_121_1150306",
+      "new_name": "測試圖層"
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:00:30.672248",
+    "user_input": "「幫我打開 '測試圖層' 的屬性表格。」",
+    "agent": "layer_control",
+    "operation": "open_attribute_table",
+    "params": {
+      "layer_name": "測試圖層"
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:01:43.777104",
+    "user_input": "「幫我對 '測試圖層' 執行環域分析 (Buffer)，距離設定為 500。」",
+    "agent": "tool_control",
+    "tool_id": "native:buffer",
+    "params": {
+      "INPUT": "VILLAGE_NLSC_121_1150306_6cbbc454_b43c_4891_aad8_88164510d50e",
+      "DISTANCE": 500
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:05:32.337988",
+    "user_input": "把測試圖層隱藏起來。",
+    "agent": "layer_control",
+    "operation": "toggle_layer_visibility",
+    "params": {
+      "layer_name": "測試圖層",
+      "visible": false
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:06:21.948445",
+    "user_input": "幫我打開 '測試圖層' 的屬性表格。",
+    "agent": "layer_control",
+    "operation": "open_attribute_table",
+    "params": {
+      "layer_name": "測試圖層"
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:07:18.459311",
+    "user_input": "把所有圖層都隱藏",
+    "agent": "layer_control",
+    "operation": "toggle_layer_visibility",
+    "params": {
+      "layer_name": "測試圖層",
+      "visible": false
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:08:00.421764",
+    "user_input": "把所有圖層都隱藏",
+    "agent": "layer_control",
+    "operation": "toggle_layer_visibility",
+    "params": {
+      "layer_name": "測試圖層",
+      "visible": false
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:09:41.137898",
+    "user_input": "把\"所有\"圖層都隱藏",
+    "agent": "layer_control",
+    "operation": "toggle_layer_visibility",
+    "params": {
+      "layer_name": "所有",
+      "visible": false
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:10:11.192547",
+    "user_input": "把測試圖層隱藏",
+    "agent": "layer_control",
+    "operation": "toggle_layer_visibility",
+    "params": {
+      "layer_name": "測試圖層",
+      "visible": false
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:10:31.153307",
+    "user_input": "__PATTERN_PROPOSED__",
+    "agent": "__system__"
+  },
+  {
+    "timestamp": "2026-05-08T01:10:44.432050",
+    "user_input": "執行 隱藏",
+    "agent": "layer_control",
+    "operation": "toggle_layer_visibility",
+    "params": {
+      "layer_name": "測試圖層",
+      "visible": false
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:11:17.168684",
+    "user_input": "執行 隱藏",
+    "agent": "layer_control",
+    "operation": "toggle_layer_visibility",
+    "params": {
+      "layer_name": "測試圖層",
+      "visible": false
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:13:18.259903",
+    "user_input": "「幫我對 '測試圖層' 執行環域分析 (Buffer)，距離設定為 500。」",
+    "agent": "tool_control",
+    "tool_id": "native:buffer",
+    "params": {
+      "INPUT": "VILLAGE_NLSC_121_1150306_6cbbc454_b43c_4891_aad8_88164510d50e",
+      "DISTANCE": 500
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:14:15.019159",
+    "user_input": "「幫我對 '123圖層' 執行環域分析 (Buffer)，距離設定為 500。」",
+    "agent": "tool_control",
+    "tool_id": "native:buffer",
+    "params": {
+      "DISTANCE": "500",
+      "INPUT": "VILLAGE_NLSC_121_1150306_d1287725_bdb5_4af1_b844_2aec7a8e59ca"
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:15:08.653627",
+    "user_input": "「幫我對 '測試圖層' 執行環域分析 (Buffer)，距離設定為 500。」",
+    "agent": "tool_control",
+    "tool_id": "native:buffer",
+    "params": {
+      "INPUT": "VILLAGE_NLSC_121_1150306_6cbbc454_b43c_4891_aad8_88164510d50e",
+      "DISTANCE": 500
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:16:03.116210",
+    "user_input": "「幫我對 '123圖層' 執行環域分析 (Buffer)，距離設定為 500。」",
+    "agent": "tool_control",
+    "tool_id": "native:buffer",
+    "params": {
+      "DISTANCE": "500",
+      "INPUT": "VILLAGE_NLSC_121_1150306_d1287725_bdb5_4af1_b844_2aec7a8e59ca"
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:16:25.106218",
+    "user_input": "__PATTERN_PROPOSED__",
+    "agent": "__system__"
+  },
+  {
+    "timestamp": "2026-05-08T01:17:11.252402",
+    "user_input": "執行 環域分析",
+    "agent": "tool_control",
+    "tool_id": "grass:r.stats.zonal",
+    "params": {
+      "INPUT": "VILLAGE_NLSC_121_1150306_6cbbc454_b43c_4891_aad8_88164510d50e",
+      "ZONE_DATA": "_b99f8514_56c9_451c_8380_d44c11c99f26",
+      "STATISTICS": "MEAN",
+      "OUTPUT": "MEAN_VALUE"
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:19:10.473410",
+    "user_input": "「執行 環域分析」",
+    "agent": "tool_control",
+    "tool_id": "grass:r.spread",
+    "params": {
+      "INPUT": "VILLAGE_NLSC_121_1150306_6cbbc454_b43c_4891_aad8_88164510d50e",
+      "DISTANCE": 1000
+    }
+  },
+  {
+    "timestamp": "2026-05-22T19:40:17.928570",
+    "user_input": "隱藏圖層123",
+    "agent": "layer_control",
+    "operation": "toggle_layer_visibility",
+    "params": {
+      "layer_name": "123",
+      "visible": false
+    }
+  },
+  {
+    "timestamp": "2026-05-22T19:42:52.646296",
+    "user_input": "「幫我對 '測試圖層' 執行環域分析 (Buffer)，距離設定為 500。」",
+    "agent": "tool_control",
+    "tool_id": "native:buffer",
+    "params": {
+      "INPUT": "VILLAGE_NLSC_121_1150306_6cbbc454_b43c_4891_aad8_88164510d50e",
+      "DISTANCE": 500
+    }
+  }
+]

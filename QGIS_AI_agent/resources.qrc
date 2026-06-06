@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/AI agent" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
